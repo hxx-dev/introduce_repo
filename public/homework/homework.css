@@ -1,0 +1,48 @@
+body { /*본문 영역 디자인*/
+    background-color: #000000c6; 
+    color :#fdfdfd;              
+    font-family: Arial, sans-serif;
+    font-size: 20px;                
+    font-weight: bold;
+    margin: 100px 200px 200px 200px;
+}
+
+div{ /*div 영역 디자인 */
+    display: flex;
+    background-color:rgba(103, 240, 211, 0.799);
+    padding: 20px;
+    border-radius: 50px;
+}
+
+ul{ /*ul 영역 디자인*/
+    background-color:rgba(119, 84, 191, 0.799);
+    padding: 30px;
+    border-radius: 40px;
+}
+
+li{/*li 영역 디자인*/
+    margin: 1px;
+    padding: 10px;
+}
+
+input{/*input 필드 디자인*/
+    width:400px;
+    height:50px;
+    color:#fdfdfd;
+    background-color:rgb(0, 0, 0);
+}
+
+input::placeholder{/*input 글씨 디자인*/
+    color:white;
+
+}
+
+button{/*button 영역 디자인*/
+    width:40px;
+    height:30px;
+    cursor: pointer;
+}
+
+button:hover {/*button에 마우스를 올렸을 때 디자인*/
+    background-color: #dd0606;
+}
